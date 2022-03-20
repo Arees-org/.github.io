@@ -249,7 +249,7 @@ body, html {
 	
 	}
 	
-	div.gallery {
+div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
@@ -1459,7 +1459,7 @@ div.gallery img {
 
 
  
-
+</div>
 
 </div>
 
@@ -1586,21 +1586,6 @@ function showSlides() {
 }
 
 
-
-var slideIndex1 = 0;
-showSlides1();
-
-function showSlides1() {
-  var i;
-  var slides1 = document.getElementsByClassName("mySlides1");
-  for (i = 0; i < slides1.length; i++) {
-    slides1[i].style.display = "none";
-  }
-  slideIndex1++;
-  if (slideIndex1 > slides1.length) {slideIndex1 = 1}
-  slides1[slideIndex1-1].style.display = "block";
-  setTimeout(showSlides1, 2000); // Change image every 2 seconds
-}
 
 
 
