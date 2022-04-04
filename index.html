@@ -1492,7 +1492,7 @@ div.gallery img {
     <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> تلفون:011/4600440</p>
     <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: areesgeneral@gmail.com</p>
     <br>
-    <form action="$_SERVER["PHP_SELF"]"  method="POST" target="_blank" >
+    <form action="<?PHP ECHO $_SERVER['PHP_SELF'] ?>"  method="POST" target="_blank" >
       <p><input class="w3-input w3-border" type="text" placeholder="الاسم" required name="Name"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="الايميل" required name="Email"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="العنوان" required name="Subject"></p>
